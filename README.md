@@ -1,5 +1,5 @@
-# countdown-timer.js
-CountDownTimer is a timing object which can be used to call events for the given length of a time period. Events can also be assigned to trigger once the CountDownTimer has elapsed.
+# CountDownTimer
+CountDownTimer is a JavaScript timing object which can be used to call events for the given length of a time period. Events can also be assigned to trigger once the CountDownTimer has elapsed. CountDownTimers are fully enclosed JS objects with a object-oriented design.
 
 ##Example Use
 ### Create emtpy timer.
@@ -40,7 +40,6 @@ CountDownTimers can be used over and over by utilizing the reset() function.
 ```js
 var timer = new CountDownTimer(3000, // time in milliseconds
                   function() { // tick callback
-                    console.log("ticking...");
                   },
                   function() { // elapsed callback
                     console.log("timer elapsed!");
